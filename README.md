@@ -7,13 +7,13 @@ We know:
 </ul>
 We can write an SQL query that selects all and only reports on crimes which satisfy these three criteria.
 <br><br>
-<img src='https://raw.githubusercontent.com/brbavar/sqlMurderMysterySolution/main/report.png?token=GHSAT0AAAAAABQNHLKUD2IPOEBW4FLVPDCYYO6CHHA' width='700px' height='auto' />
+<img src='https://raw.githubusercontent.com/brbavar/sqlMurderMysterySolution/main/report.png?token=GHSAT0AAAAAABQNHLKVHNF7IPMGZWH2JKLMYO6CQ6Q' width='700px' height='auto' />
 Let's begin by investigating the second witness. We can simply select those persons with the first name "Annabel" and the address street name "Franklin Ave."
 <br><br>
-<img src='https://raw.githubusercontent.com/brbavar/sqlMurderMysterySolution/main/annabel.png?token=GHSAT0AAAAAABQNHLKV23WKKOY7TN4GMZ54YO6CFYA' width='700px' height='auto' />
+<img src='https://raw.githubusercontent.com/brbavar/sqlMurderMysterySolution/main/annabel.png?token=GHSAT0AAAAAABQNHLKURG5D2L3W5LSF7LMWYO6CRUA' width='700px' height='auto' />
 Only one row is displayed, so Annabel Miller must be our second witness. Now that we know Annabel's ID is 16371, we can use that to obtain her interview transcript.
 <br><br>
-<img src='https://raw.githubusercontent.com/brbavar/sqlMurderMysterySolution/main/annabelTranscript.png?token=GHSAT0AAAAAABQNHLKVHEGPCGI2BFTYOJXSYO6CIYQ' width='700px' height='auto' />
+<img src='https://raw.githubusercontent.com/brbavar/sqlMurderMysterySolution/main/annabelTranscript.png?token=GHSAT0AAAAAABQNHLKVM2FUSKE5UVRBEE7WYO6CR7A' width='700px' height='auto' />
 Investigating the first witness is a bit trickier. We have to not only select those persons who live on Northwestern Dr, but also arrange their address numbers in descending order. That way we can tell right away which person lives in the last house on that street.
 <br><br>
 <img src='https://raw.githubusercontent.com/brbavar/sqlMurderMysterySolution/main/secondWitness.png?token=GHSAT0AAAAAABQNHLKVBUVUGYUHH2DZ6N2QYO6CJ5Q' width='700px' height='auto' />
