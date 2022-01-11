@@ -11,7 +11,7 @@ We can write an SQL query that selects all and only reports on crimes which sati
 Let's begin by investigating the second witness. We can simply select those persons with the first name "Annabel" and the address street name "Franklin Ave."
 <br><br>
 <img src='https://raw.githubusercontent.com/brbavar/sqlMurderMysterySolution/main/annabel.png?token=GHSAT0AAAAAABQNHLKURG5D2L3W5LSF7LMWYO6CRUA' width='700px' height='auto' />
-Only one row is displayed, so Annabel Miller must be our second witness. Now that we know Annabel's ID is 16371, we can use that to obtain her interview transcript.
+Only one row is displayed, so Annabel Miller must be our second witness. Now that we know Annabel's ID is 16371, we can obtain her interview transcript.
 <br><br>
 <img src='https://raw.githubusercontent.com/brbavar/sqlMurderMysterySolution/main/annabelTranscript.png?token=GHSAT0AAAAAABQNHLKVM2FUSKE5UVRBEE7WYO6CR7A' width='700px' height='auto' />
 Annabel's statement tips us off to the fact that, likely, the suspect will be on the list of Get Fit Now members, and will have checked in at the gym on January 9, 2018. That's useful, but it may not narrow down the list of suspects that much, so let's see what the first witness has to say. 
