@@ -22,7 +22,7 @@ Identifying the first witness is a bit trickier. We have to not only select thos
 Given that Morty Schapiro's ID is 14887, let's write:
 <br><br>
 <img src='https://raw.githubusercontent.com/brbavar/sqlMurderMysterySolution/main/mortyTranscript.png' width='700px' height='auto' />
-Now we're getting somewhere! Only the gold members of the gym remain suspects. We can narrow the suspects down further using the wildcard % to find the gold members whose membership numbers begin with 48Z (followed by anything).
+Now we're getting somewhere! Only the gold members of the gym remain suspects. We can narrow the suspects down further using the wildcard % to find the gold members whose membership numbers begin with "48Z" (followed by anything).
 <br><br>
 <img src='https://raw.githubusercontent.com/brbavar/sqlMurderMysterySolution/main/goldGymMembers48Z.png' width='700px' height='auto' />
 Let's get some more information on these two honored members of Get Fit Now Gym, using the names we just uncovered.
