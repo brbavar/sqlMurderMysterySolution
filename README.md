@@ -16,7 +16,7 @@ Only one row is displayed, so Annabel Miller must be our second witness. Now tha
 <img src='https://raw.githubusercontent.com/brbavar/sqlMurderMysterySolution/main/annabelTranscript.png' width='700px' height='auto' />
 Annabel's statement tips us off that, likely, the suspect will be on the list of Get Fit Now members, and will have checked in at the gym on January 9, 2018. That's useful, but it may not narrow down the list of suspects that much, so let's see what the first witness has to say. 
 <br><br>
-Identifying the first witness is a bit trickier. We have to not only select those people who live on Northwestern Dr, but also arrange their address numbers in descending order. That way we can tell right away which person lives in the last house on that street.
+Identifying the first witness is a bit trickier. We have to not only select those people who live on Northwestern Dr, but also arrange their address numbers in descending order. That way we can tell right away which person lives in the last house on that street; it's the person in the first row.
 <br><br>
 <img src='https://raw.githubusercontent.com/brbavar/sqlMurderMysterySolution/main/secondWitness.png' width='700px' height='auto' />
 Given that Morty Schapiro's ID is 14887, let's write:
