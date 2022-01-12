@@ -41,12 +41,12 @@ This first query is not at all involved, so the next query will have to do the h
 <img src='https://raw.githubusercontent.com/brbavar/sqlMurderMysterySolution/main/bowersTranscript.png?token=GHSAT0AAAAAABQNHLKVYKYPDF37PLDRUQRKYO6CNEQ' width='700px' height='auto' />
 Gee, where do we go from here... Well, we would expect to find the data Jeremy mentions in the income, drivers_license, and facebook_event_checkin tables. And obviously what we want to learn is the name of the person, which we can then enter as our second solution. So we <em>could</em> join the person, income, drivers_license, and facebook_event_checkin tables, narrowing down the rows to the ones that meet Jeremy's specifications (e.g., hair color and car model), and then select the people's names from the resulting table. (I admit I took that approach at first.)
 <br><br>
-But there's really no <em>need</em> to use all the information Jeremy gave to identify the criminal. I managed to narrow the suspects down to one using just two of the details Jeremy gave: the name of the event she attended and the make of her car. Aside from that, all I had to do was ensure that the final table contained only rows where 
+But there's really no <em>need</em> to use all the information Jeremy gave to identify the woman who hired him. I managed to narrow the suspects down to one using just two of the details Jeremy gave: the name of the event this woman attended and the make of her car. Aside from that, all I had to do was ensure that the final table contained only rows where
 <ol type='a'>
   <li>the person's ID matched the ID of the event attendee, and</li>          
   <li>the license ID from the person table matched the ID from that person's row in the drivers_license table.</li>
 </ol>
 <img src='https://raw.githubusercontent.com/brbavar/sqlMurderMysterySolution/main/minimalQuery.png?token=GHSAT0AAAAAABQNHLKV364CQIG5UISPJ4PWYO6CNTA' width='700px' height='auto' />
-Whaddaya know? Not only did we narrow down to one the list of distinct suspect names, but instantly we notice her name occurs three times. This is because, as Jeremy said of the woman who hired him, Miranda attended the SQL Symphony Concert three times. Really, though, the sole fact that just one name remains guarantees this is our criminal. So let's submit our answer!
+Wow, check this out. Not only did we narrow down to one the list of distinct suspect names, but instantly we notice her name occurs three times. This is because, as Jeremy said of the woman who hired him, Miranda attended the SQL Symphony Concert three times. Really, though, the sole fact that just one name remains guarantees this is our criminal. So let's submit our answer!
 <br><br>
 <img src='https://raw.githubusercontent.com/brbavar/sqlMurderMysterySolution/main/solution2.png?token=GHSAT0AAAAAABQNHLKUTAS3J6DQXJVX5SVCYO6COLA' width='700px' height='auto' />
