@@ -14,7 +14,7 @@ Let's begin by investigating the second witness. We can simply select those peop
 Only one row is displayed, so Annabel Miller must be our second witness. Now that we know Annabel's ID is 16371, we can obtain her interview transcript.
 <br><br>
 <img src='https://raw.githubusercontent.com/brbavar/sqlMurderMysterySolution/main/annabelTranscript.png' width='700px' height='auto' />
-Annabel's statement tips us off to the fact that, likely, the suspect will be on the list of Get Fit Now members, and will have checked in at the gym on January 9, 2018. That's useful, but it may not narrow down the list of suspects that much, so let's see what the first witness has to say. 
+Annabel's statement tips us off that, likely, the suspect will be on the list of Get Fit Now members, and will have checked in at the gym on January 9, 2018. That's useful, but it may not narrow down the list of suspects that much, so let's see what the first witness has to say. 
 <br><br>
 Identifying the first witness is a bit trickier. We have to not only select those people who live on Northwestern Dr, but also arrange their address numbers in descending order. That way we can tell right away which person lives in the last house on that street.
 <br><br>
