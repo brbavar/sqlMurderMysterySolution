@@ -47,6 +47,6 @@ But there's really no <em>need</em> to use all the information Jeremy gave to id
   <li>the license ID from the person table matched the ID from that person's row in the drivers_license table.</li>
 </ol>
 <img src='https://raw.githubusercontent.com/brbavar/sqlMurderMysterySolution/main/minimalQuery.png' width='900px' height='auto' />
-Wow, check this out. Not only did we narrow down to one the list of distinct suspect names, but instantly we notice her name occurs three times. This is because, as Jeremy said of the woman who hired him, Miranda attended the SQL Symphony Concert three times. Really, though, the sole fact that just one name remains guarantees this is our criminal. So let's submit our answer!
+Wow, check this out. Not only did we narrow down to one the list of distinct suspect names, but instantly we notice her name occurs three times. This is because, as Jeremy said of the woman who hired him, Miranda attended the SQL Symphony Concert three times. Really, though, the sole fact that just one name remains guarantees this is our criminal. Time to submit our answer!
 <br><br>
 <img src='https://raw.githubusercontent.com/brbavar/sqlMurderMysterySolution/main/solution2.png' width='900px' height='auto' />
