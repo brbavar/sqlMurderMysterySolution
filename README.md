@@ -8,7 +8,7 @@ We know:
 We can write an SQL query that selects all and only reports on crimes which satisfy these three criteria.
 <br><br>
 <img src='https://raw.githubusercontent.com/brbavar/sqlMurderMysterySolution/main/report.png' width='900px' height='auto' />
-Let's begin by investigating the second witness. We can simply select those people with the first name "Annabel"—and, if you wish to increase the query's precision, the address street name "Franklin Ave."
+Let's begin by investigating the second witness. We can simply select those people with the first name "Annabel"—and, if you wish to increase the query's precision, with the address street name "Franklin Ave."
 <br><br>
 <img src='https://raw.githubusercontent.com/brbavar/sqlMurderMysterySolution/main/annabel.png' width='900px' height='auto' />
 Only one row is displayed, so Annabel Miller must be our second witness. Now that we know Annabel's ID is 16371, we can obtain her interview transcript.
